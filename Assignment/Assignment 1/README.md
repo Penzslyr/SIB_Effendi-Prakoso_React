@@ -20,13 +20,18 @@ Flow calculator apps:
   1. User input value 
   2. User input operator
   3. User input value jika ingin menggunakan operator berkali kali, atau input operator '=' jika ingin memunculkan hasilnya
+  4. Calculator akan menampilkan 2 hasil operasi terakhir
 
 All Clear (AC) & Clear Entry (CE) Button:
   1. All clear akan mereset semua inputan termasuk hasilnya
   2. Clear Entry akan hanya akan mereset inputannya saja
 
 Error handling: 
-  1. Decimal tidak bisa diinput berkali kali
+  1. Decimal tidak bisa diinput berkali kali (ex: 0.. , 1.2.3)
   2. Menghilangkan angka 0 jika angka tersebut tidak berupa decimal (Ex = 03 menjadi 3)
-  3. Menambahkan scroll bar jika hasil melebihi layar
+  3. Menambahkan scroll bar jika hasil melebihi layar (custom scroll bar)
+  4. Menggunakan 2 operasi lebih tanpa klik '=' bisa memunculkan hasilnya dan calculator tetap berjalan 
+  5. angka 0. (nol koma) tidak bisa dioperasikan
+  6. error handling jika tidak ada desimal maka tambahkan, jika ada maka tidak bisa
+  7. fix bug operator dpt di klik  berkali kali dan menghasilkan NaN (number dioperasikan dengan simbol operasi)
 
