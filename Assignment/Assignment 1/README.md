@@ -14,7 +14,7 @@
   
   Tampilan:
   
-   ![image](https://user-images.githubusercontent.com/90124411/186632011-4e6482f1-445f-4240-9469-ea7717dbc235.png)
+   ![image](https://user-images.githubusercontent.com/90124411/186635586-ca64112b-332f-47a7-b284-56471219ab06.png)
 
 Flow calculator apps: 
   1. User input value 
