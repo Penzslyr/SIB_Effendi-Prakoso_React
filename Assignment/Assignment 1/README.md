@@ -40,4 +40,5 @@ Error handling:
   5. angka 0. (nol koma) tidak bisa dioperasikan
   6. error handling jika tidak ada desimal maka tambahkan, jika ada maka tidak bisa
   7. fix bug operator dpt di klik  berkali kali dan menghasilkan NaN (number dioperasikan dengan simbol operasi)
+  8. Angka dibagi 0 akan menghasilkan 'Infinity'
 
