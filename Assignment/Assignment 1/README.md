@@ -1,6 +1,6 @@
-Effendi Prakoso
-React and React Native
-RCTN-KS05-016
+  Effendi Prakoso/
+  React and React Native/
+  RCTN-KS05-016/
 
 Flow calculator apps: 
   1. User input value 
