@@ -1,6 +1,11 @@
+  
   Effendi Prakoso/
   React and React Native/
   RCTN-KS05-016/
+  
+  Tampilan:
+  
+   ![image](https://user-images.githubusercontent.com/90124411/186600205-5e30ec0b-263c-47e1-a509-558cfd621bee.png)
 
 Flow calculator apps: 
   1. User input value 
