@@ -3,6 +3,12 @@
   React and React Native/
   RCTN-KS05-016/
   
+  Tugas : 
+    Membuat online simple calculator 
+   
+  Expected Result of Interface:
+    
+  
   Tampilan:
   
    ![image](https://user-images.githubusercontent.com/90124411/186600205-5e30ec0b-263c-47e1-a509-558cfd621bee.png)
