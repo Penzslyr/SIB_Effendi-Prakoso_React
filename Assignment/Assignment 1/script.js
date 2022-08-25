@@ -11,12 +11,14 @@ let awaitingNextValue = false;
 
 // Send number value when btn is clicked 
 function sendNumberValue(number){
-    //jika valuenya masih 0, kita replace jika tidak kita tambahkan nomernya
+    
     //mengubah tampilan value jika sudah ada value pertama yang dimasukan
+    //jika value pertama sudah ada (diketahui dari variabel awaitingNextVaue) maka akan men display number yang di klik
     if(awaitingNextValue){
         calculatorDisplay.textContent = number;
         awaitingNextValue = false
     }else{
+        //jika valuenya masih 0, kita replace jika tidak kita tambahkan nomernya
         const displayValue = calculatorDisplay.textContent;
         //const historyValue = historyDisplay.textContent;
         calculatorDisplay.textContent = displayValue === '0' ? number : displayValue + number;
@@ -24,7 +26,7 @@ function sendNumberValue(number){
     }
 }
 
-//menjumlahkan fistt dan second value tergantung operatornya
+//menjumlahkan first dan second value tergantung operatornya
 const calculate = {
     '/': (firstNumber,secondNumber) => firstNumber / secondNumber,
     '*': (firstNumber,secondNumber) => firstNumber * secondNumber,
@@ -45,7 +47,7 @@ const addDecimal = () => {
 
 const useOperator = (operator) => {
    const currentValue = Number(calculatorDisplay.textContent);
-   //fix bug operator berkali kali
+   //fix bug operator dpt di klik  berkali kali dan menghasilkan NaN
    if(operatorValue&&awaitingNextValue) {
         operatorValue = operator;
         return;
@@ -55,6 +57,7 @@ const useOperator = (operator) => {
    if(!firstValue){
         firstValue = currentValue;
    }else{
+        //tampil history operasi jika klik =
         if(operatorValue!=='='){
             // historyDisplay.textContent = `${firstValue}${operatorValue}${currentValue}`
             // console.log(operatorValue);
