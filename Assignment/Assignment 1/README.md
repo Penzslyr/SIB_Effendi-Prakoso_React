@@ -12,7 +12,7 @@
 
     
   
-  Tampilan:
+  Tampilan Akhir:
   
    ![image](https://user-images.githubusercontent.com/90124411/186635586-ca64112b-332f-47a7-b284-56471219ab06.png)
 
