@@ -21,6 +21,12 @@ Flow calculator apps:
   2. User input operator
   3. User input value jika ingin menggunakan operator berkali kali, atau input operator '=' jika ingin memunculkan hasilnya
   4. Calculator akan menampilkan 2 hasil operasi terakhir
+  
+ User Experience :
+  1. Menambahkan efek hover pada setiap button
+  2. Menambahkan efek brightness (btn menjadi agak terang dan gelap (untuk btn = karena warna yellow) 
+  3. Menambahkan custom scroll bar jika hasil pada display melebihi layar
+  4. Menambahkan efek saat button ditekan 
 
 All Clear (AC) & Clear Entry (CE) Button:
   1. All clear akan mereset semua inputan termasuk hasilnya
