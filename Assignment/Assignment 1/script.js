@@ -1,4 +1,5 @@
 const calculatorDisplay = document.querySelector('h1');
+const historyDisplay = document.querySelector('h2');
 const inputBtns = document.querySelectorAll('button');
 const clearEntryBtn = document.getElementById('clear-entry');
 const allClearBtn = document.getElementById('all-clear');
@@ -17,7 +18,9 @@ function sendNumberValue(number){
         awaitingNextValue = false
     }else{
         const displayValue = calculatorDisplay.textContent;
+        //const historyValue = historyDisplay.textContent;
         calculatorDisplay.textContent = displayValue === '0' ? number : displayValue + number;
+        //historyDisplay.textContent = historyValue === '0' ? number : historyValue + number;
     }
 }
 
@@ -52,6 +55,11 @@ const useOperator = (operator) => {
    if(!firstValue){
         firstValue = currentValue;
    }else{
+        if(operatorValue!=='='){
+            historyDisplay.textContent = `${firstValue}${operatorValue}${currentValue}`
+            console.log(operatorValue);
+        }
+        
         const calculation = calculate[operatorValue](firstValue, currentValue);
         calculatorDisplay.textContent = calculation;
         firstValue = calculation;
@@ -86,6 +94,7 @@ const allClear = () => {
      firstValue = 0;
      operatorValue = '';
      awaitingNextValue = false;
+     historyDisplay.textContent = 0;
     calculatorDisplay.textContent = '0';
     
 }
