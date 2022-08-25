@@ -1,0 +1,116 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h1 {
+    background-color: #313131;
+    color: #C4C4C4;
+} */
+
+.calculator {
+    background: #A6A6A6;
+    width: 300px;
+}
+
+.calculator-display {
+    background-color: #565353;
+    color: #C4C4C4;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.calculator-display h1 {
+    margin: 0;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+/* Buttons */
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:5px;
+    padding: 5px;
+}
+
+.equal-sign{
+    grid-row: span 2;
+    background-color: yellow;
+}
+
+.equal-sign:hover{
+    filter:brightness(90%)
+}
+
+.zero {
+    grid-column: 1 / span 2;
+}
+
+
+/* Button styling  */
+
+button {
+    min-height: 50px;
+    border:none;
+    background-color: #C4C4C4;;
+    color: #565353;
+    font-size: 20px;
+    font-weight: 50;
+    cursor: pointer;
+}
+
+button:hover{
+    filter:brightness(110%)
+}
+
+button:active{
+    transform: translateY(1px);
+}
+
+button:focus{
+    outline:none;
+}
+
+/* Button styling END */
+
+
+
+.operator {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
