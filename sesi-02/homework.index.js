@@ -68,6 +68,8 @@ const videoData = [
     },
 ]
 
+
 let filterData = videoData.filter((videoData)=>videoData.present===true)
+let filterRooms = filterData.map((filterData)=>filterData.rooms)
 console.log(filterData);
-console.log(filterData.length);
+console.log(filterRooms);

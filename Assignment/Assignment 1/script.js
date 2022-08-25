@@ -9,7 +9,7 @@ let firstValue = 0;
 let operatorValue = '';
 let awaitingNextValue = false;
 
-// Send number value when btn is clicked 
+// mengirim value jika number di klik
 function sendNumberValue(number){
     
     //mengubah tampilan value jika sudah ada value pertama yang dimasukan
@@ -75,7 +75,7 @@ const useOperator = (operator) => {
    operatorValue = operator;
 }
 
-// Add Event Listeners for numbers, operator, decimal buttons
+// menambahkan Event Listeners untuk numbers, operator, desimal buttons
 inputBtns.forEach((inputBtn)=>{
     if(inputBtn.classList.length===0){
         inputBtn.addEventListener('click', ()=> sendNumberValue(inputBtn.value));
