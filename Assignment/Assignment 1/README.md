@@ -28,4 +28,5 @@ All Clear (AC) & Clear Entry (CE) Button:
 Error handling: 
   1. Decimal tidak bisa diinput berkali kali
   2. Menghilangkan angka 0 jika angka tersebut tidak berupa decimal (Ex = 03 menjadi 3)
+  3. Menambahkan scroll bar jika hasil melebihi layar
 
