@@ -84,9 +84,7 @@ inputBtns.forEach((inputBtn)=>{
     }else if(inputBtn.classList.contains('decimal')){
         inputBtn.addEventListener('click', ()=> addDecimal());
     }
-    else if(inputBtn.classList.contains('zero')){
-        inputBtn.addEventListener('click', ()=> sendNumberValue(inputBtn.value));
-    }
+
 });
 
 //clear entry function & event listener
