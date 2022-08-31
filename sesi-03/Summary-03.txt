@@ -1,3 +1,7 @@
+    Effendi Prakoso
+    React and React Native
+    RCTN-KS05-016
+    
     [ CLASS ]
     Javascript adalah bahasa OOP (Object Oriented Programming) bersifat prototype based. 
 
