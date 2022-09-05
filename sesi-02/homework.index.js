@@ -71,5 +71,22 @@ const videoData = [
 
 let filterData = videoData.filter((videoData)=>videoData.present===true)
 let filterRooms = filterData.map((filterData)=>filterData.rooms)
-console.log(filterData);
-console.log(filterRooms);
+let dataFilter = filterData.map(data => {
+    let name = data.name.toString()
+    let present = data.present.toString()
+    let rooms = data.rooms;
+    let roomsObject = {
+        name: name,
+        present: present,
+        rooms: rooms
+    }
+    console.log(roomsObject);
+
+})
+
+
+
+
+// console.log(filterData);
+// console.log(filterRooms);
+

@@ -1,0 +1,39 @@
+Effendi Prakoso
+React and React Native
+RCTN-KS05-016
+
+Pengenalan React
+
+    React adalah library Javascrip yang digunakan untuk membangun User Interface (UI). 
+    Sebuah Komponen di react memiliki lifecycle yang mudah diprediksi dan ditulis dengan regular old JS dan bantuan dari JSX.
+    React membantu kita untuk memahami konsep konsep dasar Javascript karena di React JS ktia bisa menggunakan fungsi fungsi dasar JS.
+    
+    React digunakan untuk mengembangkan Website, Mobile dengan React Native, Aplikasi VR dengan React VR, 
+    Aplikasi CLI atau terminal dengan React Blessed, aplikasi smart tv dengan React-Tv dan sebagainya.
+
+    React adalah library yang component-based. dimana kita bisa membuat file jsx untuk per komponenya dan menggabungkannya menjadi satu.
+    Sehingga penggunaan React JS membantu jika user menggunakan kode yang berulang ulang kita tinggal memanggillnya saja.
+
+    React memiliki aliran data satu arahm yaitu dari View > Action > Store dan kembali ke View lagi. 
+    Hal tersebut menjadi signifikan karena dengan begitu perubahan datanya menjadi lebih mudah dimengerti dan diprediksi
+
+    Setiap kali ada perubahan data, React akan melakukan proses render ulang seluruh komponen. Hal ini menyebabkan react tidak membutuhkan data binding yang aneh aneh. 
+
+Virtual DOM
+
+    Manipulasi DOM sering digunakan pada web web modern yang memiliki tampilan interaktif. namun lebih lambah daripada jebanyakan operasi di javascript.
+    React menggunakan virtual DOM dikarenakan pada modern web membutuhkan data yang terus menerus berubah, dan setiap perubahan akan
+    melakukan komputasi berat untuk mengubah DOM. maka dari itu React memutuskan menggunakan virtual DOM daripada dengan DOM nya secara langsung.
+
+JSX 
+
+   JSX dari awal merupakan bagian dari React. JSX kebanyakan dari JavaScript XML. JSX membuat kita bisa menuliskan/Menambahkan HTML pada React.
+   Dengan JSX, Franework tinggal mengubah hasil dari JSX yang menjadi fungsi fungsi menjadi tag tag html dan langsung dikirimkan hasilyna ke penggunaan.
+   React juga bisa digunakan tanpa JSX.
+
+Instalasi React
+
+    Instalasi bisa dilakukan secara manual dan otomatis.
+    jika melakukan manual, perlu menggunakan bantuan Babel dan Webpack serta membuat file pendukungnya secara manual.
+    Jika otomatis, hanya perlu menulsikan cmd "npx create-react-app my-app"
+    

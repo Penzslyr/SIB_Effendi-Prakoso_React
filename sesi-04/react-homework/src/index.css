@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.login {
+  float:right;
+}
+
+.meetup-now{
+  margin: 30px;
+  background-color:antiquewhite;
+  width: 100;
+  height: 300px;
+  display: flex;
+}
+
+.img{
+  padding: 10px 10px 0px 10px;
+  width: 300px;
+  height: 280px;
+}
+
+.text-meetup-now{
+  margin: 10px 100px 50px 50px;
+  align-items: center;
+}
+
+.desc-1{
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+  font-size: large;
+}
+
+.btn-join{
+  padding: 50px;
+}
+
+.nextMeetup{
+  margin: 30px;
+  background-color:antiquewhite;
+  font-style:italic;
+  color: black;
+  font-weight: bold;
+}
+
+.date{
+  color: rgb(116, 136, 153);
+}
+
+.text-next{
+  padding: 10px;
+}
+
+.container-inline{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline-left{
+  padding-left: 30px;
+}
+
+.inline-right{
+  padding-right: 30px;
+}
+
+.img-member{
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+
+.members{
+  margin: 30px;
+  background-color:antiquewhite;
+  display: flex;
+}
+
+.text-member {
+  margin: auto auto auto 10px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.container-past{
+  display: flex;
+  margin: 30px;
+}
+
+.card{
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.footer{
+  text-align: center;
+  font-weight: bold;
+  
+}
