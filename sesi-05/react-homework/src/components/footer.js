@@ -1,9 +1,9 @@
 
-function Footer(){
+function Footer(props){
     return(
         <div className="footer">
             <hr></hr>
-            <p>Copyright Hacktiv8 2018</p>
+            <p>{props.footerText}</p>
         </div>
     )
 }

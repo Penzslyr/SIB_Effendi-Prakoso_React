@@ -1,0 +1,35 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Data Flow di React 
+    Aliran data flow di react bersifat satu arah (Action>Store>View)
+
+State dan Props
+    Digunakan untuk interaksi antar komponen.
+    State digunakan untuk menyimpan kondisi saat ini untuk komponen
+    Props digunakan untuk mengirimkan data (property) ke komponen lainnya
+
+State
+    Deklarasi state kita perlu membuat konstruktor dan memanggil method super, lalu menuliskan this.state dan valuenya
+    Cara memanggil atau membnaca state dengan menggunakan this
+    Sangatlah dilarang untuk mengupdate state langsung dengan syntax (hardcode)
+    Untuk update state bisa menggunakan fungsi setState 
+
+Props  
+    Digunakan untuk mengirim data ke komponen lainnya
+    Bisa digunakan untuk mengirim state ke komponen lainnya
+    Pemanggilan props hanya perlu memanggil this.props.nameval
+
+PropTypes
+    PropTypes adalah library tambahan
+    Proprtypes biasanya dilakukan untuk memvalidasi data 
+    Proptypes bisa digunakan untuk memvalidasi berbagai tipe data muklai dari tipe data scalar hingga ke struktur data seperti array
+    Bisa digunakan untuk memvalidasi sesuai dari bentuk dari sebuah Objeck (ShapeOf)
+
+Atomic Design
+    Atomic Design adalah pendekatan design yang memecah elemen aplikasi web menjadi bagian bagian paling kecil
+    Atomic Design sangat berguna sekali karena komponen komponen yang dibuat akan reusable (dapat dipakai kembali)
+    Biasanya dibuat ke dalam bentuk templates (halaman spesifik yang sudah dilengkapi dengan representasi konten)
+
+

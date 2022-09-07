@@ -1,6 +1,15 @@
 import Button from 'react-bootstrap/Button';
+import React, {useState} from 'react'
 
-function Pastmeetups(){
+function Pastmeetups( {  }){
+    //Penggunaan use state untuk card pertama, jika di klik mala value di btn akan menjadi "Viewed" dan jika belum akan menjadi view
+    //hanya card pertama saja
+    const [getBtnValue, setBtnValue] = useState("")
+
+    const changeBtnValue = () => {
+      setBtnValue("Viewed");
+    }
+
     return(
         <div className="container-past"> 
             <div className="card">
@@ -8,8 +17,8 @@ function Pastmeetups(){
                 <hr></hr>
                 <p>#39 JakartaJS April Meetup with kumparan</p>
                 <p>139 went</p>
-                <Button variant="secondary" size="lg">
-                View
+                <Button onClick={()=>changeBtnValue()} variant="secondary" size="lg">
+                {!getBtnValue ? "View" : getBtnValue}
                 </Button>
             </div>
             <div className="card">

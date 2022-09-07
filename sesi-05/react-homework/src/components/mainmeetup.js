@@ -1,6 +1,13 @@
 import Button from 'react-bootstrap/Button';
+import React, {useState} from 'react'
 
-function Mainmeetup(){
+function Mainmeetup(props){
+    //Use State Btn Join Us
+    const [getBtnUSValue, setBtnUSValue] = useState("")
+
+    const changeBtnUSValue = () => {
+      setBtnUSValue("Joined");
+    }
     return (
     <div className="meetup-now">
       
@@ -11,7 +18,7 @@ function Mainmeetup(){
         <p className ="desc-1">Location : Jakarta</p>
         <p className ="desc-1">Members : 1078</p>
         <p className ="desc-1">Organizers : Andy Wiranata</p>
-        <Button className='m-auto' variant="primary" size="lg">Join Us</Button>{' '}
+        <Button onClick={()=>changeBtnUSValue()} className='m-auto' variant="primary" size="lg">{!getBtnUSValue ? "Join Us" : getBtnUSValue}</Button>{' '}
       </div>
       
     </div>
