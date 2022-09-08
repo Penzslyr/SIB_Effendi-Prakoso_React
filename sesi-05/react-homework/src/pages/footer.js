@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 function Footer(props){
     return(
@@ -6,6 +7,10 @@ function Footer(props){
             <p>{props.footerText}</p>
         </div>
     )
+}
+
+Footer.propTypes = {
+    props: PropTypes.string,
 }
 
 export default Footer

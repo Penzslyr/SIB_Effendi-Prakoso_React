@@ -143,3 +143,9 @@ li:hover a{
   font-weight: bold;
   
 }
+
+.active{
+  color: blue;
+  pointer-events: none;
+  cursor: none;
+}
