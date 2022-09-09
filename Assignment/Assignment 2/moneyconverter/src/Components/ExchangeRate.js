@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 
 const ExchangeRate = () => {
     const [data,setData] = useState([ ])
+    const [date,setDate] = useState([ ])
     const exchangeName = [
         {name:"CAD"},
         {name:"EUR"},
@@ -15,6 +16,7 @@ const ExchangeRate = () => {
     useEffect(()=> {
         axios.get("https://api.currencyfreaks.com/latest?apikey=d0d53d53ea5b47348516fd44eb657d6f&format=json")
     .then((res) => {
+        setDate([res.data.date])
         const param = [res.data.rates.CAD, res.data.rates.EUR, res.data.rates.IDR, res.data.rates.JPY, res.data.rates.CHF, res.data.rates.GBP]
        const combine = exchangeName.map(function(item,index){
         return {name: item.name, value: param[index]}
@@ -28,7 +30,7 @@ const ExchangeRate = () => {
     })
     },[])
 
-    //  console.log(data);
+      console.log(date);
 
     return(
         <>
@@ -62,8 +64,9 @@ const ExchangeRate = () => {
             
             </div>
             <div className='text-rate'>
-                <p>Rates are based from 1 USD. </p>
-                <p>This Application uses API from <a href='https://currenctfreaks.com'>https://currenctfreaks.com</a></p>
+                
+                <p>Rates are based from 1 USD. Last Update: <u>{date}</u></p>
+                <p>This Application uses API from <a href='https://currencyfreaks.com/' target="_blank" >https://currencyfreaks.com/</a></p>
             </div>
             
         </>
