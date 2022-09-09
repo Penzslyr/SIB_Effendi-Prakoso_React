@@ -1,0 +1,5 @@
+    Effendi Prakoso /  RCTN-KS05-016
+    
+fetching api dengan menggunakan axios (harus diinstall dulu axiosnya)
+css styling dengan menggunakan css murni
+menggunakan useState (untuk menyimpan data hasil dari fetching api), useEffect (data akan di get pada setiap render)
