@@ -1,0 +1,31 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+    Mendeklarasi komponen dengan create class sudah jarang atau tidak pernah digunakan lagi di React terbaru
+
+Statefull Component 
+    Komponen yang akan menyimpan informasi terkait komponent tersebut, Komponen tersebut dapat mengubah informasi tersebut
+    atau dengan kata lain "state" (biasanya menggunakan state)
+
+Stateless Component
+    Stateless adalah komponen yang tidak bertanggung jawab pada state. Tugasnya hanya menampilkan 
+    data yang dikirim parent melalui props. 
+
+Class Component vs Function Component 
+    Dulu biasanya pada menggunakan statefull component karena dapat menggunakan state. namun  sejak React 16.8,
+    Hooks mulai diperkenalkan sehingga Function Component dapat memiliki kemampuan sama dengan Class Component dengan 
+    penulisan kode yang lebih simpel (mengunakan fungsi usestate dan useeffect dr react) 
+
+Hooks - useState 
+    Fungsi untuk mengembalikan sebuah nilai staeful dan fungsi untuk mengupdate nya.
+    Fungsi tersebut adalah untuk get (untuk mengembalikan nilai) dan set (untuk mengupdate nilai) serta nilai default nya.
+
+Hooks - useeffect 
+    Digunakan untuk menambahkan side effect ke function komponent. penggunaanyna mirip seperti lifecycle method seperti componentDidMount, componentDidUpdate, dan component componentWillWount di Class Component/
+    Use effect akan menerima dua meter yaitu callback dan array
+    array kosong akan terender satu kali, tanpa array akan terus menerus
+
+    
+
+

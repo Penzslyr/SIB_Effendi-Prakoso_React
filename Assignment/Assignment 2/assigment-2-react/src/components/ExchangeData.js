@@ -29,7 +29,7 @@ const ExchangeData = () => {
     })
     },[])
 
-     console.log(data);
+    //  console.log(data);
 
    
     return(
