@@ -1,4 +1,3 @@
-import './App.css';
 import ExchangeRate from './Components/ExchangeRate';
 import Footer from './Components/Footer';
 
