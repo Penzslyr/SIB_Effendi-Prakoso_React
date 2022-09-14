@@ -1,1 +1,21 @@
 
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Mempelajari tentang Lifecycle (siklus hidup) pada React yang terdirid ari
+- Mounting
+- Updating
+- Unmounting
+
+Constructor = akan dipanggil saat sebuah komponen diinisialisasi
+render = setiap class komponen harus ini dan harus mereturn sebuah komponen
+componentDidMount() = method yg akan dipanggil setelah sebuah komponen selesai dileteakkan di DOM sebuah server
+
+ShouldComponent Update = akan selalu re-render setiap ada perubahan state atau props. Bisa dibatasi keadaan apa kejadian apa saja untuk men trigger ini (mennggunakan kondisi if)
+componentDidUpdate = dipanggil setelah render dipanggil, biasanya digunakan untuk prefetch karena biasanya digunakan untuk operasi DOM atau request async
+componentWilluNMount = dipanggil sebelum menghapus komponen dari DOM. untuk melakukan pembersihan di class ini
+componentDidCatch = biasanya untuk error handling agar menampilkan pesan error yang baik
+
+untuk pada function component, fungsi fungsi diatas bisa dilakukan dengan menggunakan Effect Hooks, UseEffect.
+Hooks memiliki fungsi yang sama dari fungsi diatas

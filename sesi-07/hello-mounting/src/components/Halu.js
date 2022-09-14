@@ -9,6 +9,8 @@ export default class Halu extends React.Component {
         }
     }
 
+
+
     shouldComponentUpdate(nextProps, nextState){
         if(this.state.users.length !== nextState.users.length){
             return true
@@ -36,13 +38,17 @@ export default class Halu extends React.Component {
     }
 
     componentDidMount(){
-        fetch('https://jsonplaceholder.typicode.com/posts')
+
+        // get api with fetch 
+        fetch('https://jsonplaceholder.typicode.com/todos')
                 .then(resp => resp.json())
                 .then(respJson => {
                     this.setState({
                         isLoading: false,
+                        //slice dengan 0-5
                         users: respJson.slice(0,5)
                     })
+                //try cl to know apakah fetch berhasil
                 console.log(this.state.users);
                 })
                 .catch((err)=>console.log(err))
@@ -57,6 +63,7 @@ export default class Halu extends React.Component {
         return(
             <div>
                 <table>
+                    {/* mapping dengan menampilkan semua hasil get  */}
                 { this.state.users !== null && this.state.users.map((res) => {
                     
                     return (
