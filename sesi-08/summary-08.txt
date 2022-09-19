@@ -1,0 +1,32 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Styling Component pada React
+1. Inline css 
+    Seperti pada HTML biasanya, kita bisa menggunakan inline css dengan menggunakan bracket dan dimasukan kedalam kelas style nya.
+
+2. Object Variabel css
+    Kita bisa membuat objeck yang isi value dan propertynya adalah css dan kita memasukannya kedalam kelas style pada div yang akan digunakan.
+
+3. External css
+    Kita bisa menggunakan external css (file css yang lain) dan kita menggunakannya hanya dengan meng import saja.
+
+4. External CSS Module
+    sama seperti external css hanya saja pada import kita beri akhiran .module.css
+
+5. External Object Variabel CSS
+    mirip dengan object variabel css, hanya saja ditempatkan pada bagian luar file sehingga kita perlu melakukan export dan import pada object yang akan digunakan
+
+6. Sytled component 
+    Library react dan react native yang memungkinkan kita melakukan styling component memggunakan javascript dan css
+    kita perlu melakukan instalasi dengan npm install styled-components
+
+7. Css in JS Library
+    Library css yang membantu kita untuk melakukan styling dengan menyediakan fungsionalitas agar styling lebih mudah dan bagus
+
+UI Frameworks.
+    Digunaklan untuk membuat proses styling lebih cepat, rapi. ada beberapa yang dilengkapi dengan banyak fitur 
+    dan banyak pre-made components serta ada yang hanya menyediakan utilities class nya saja.
+    Contoh yang banyak pre-made dan fitur nya adalah bootstrap.
+    kita bisa menggunakan bootstrap dengan cara manual ataupun dengan cara instalasi dengan bantuan npm.
