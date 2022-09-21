@@ -1,0 +1,129 @@
+.sidenav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(248, 103, 19);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.centered{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 400px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.pp{
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.ppdiv{
+  padding: 150px 8px 6px 80px;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  padding: 6px 8px 6px 16px;
+}
+
+li {
+  cursor: pointer;
+  margin: auto;
+  padding: 6px 8px 6px 0px;
+  color: rgb(83, 80, 77);
+}
+
+li:hover {
+  
+}
+
+.active {
+  color:white;
+}
+
+.paragraphdiv {
+  border:rgb(248, 103, 19) solid;
+  border-radius: 10px;
+  margin-top: 50px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.paragraph {
+  margin: 50px;
+  text-align: justify;
+}
+
+.h1text{
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 80px
+
+}
+
+.inline1 {
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+}
+
+
+.aboutdiv{
+  height: 900px;
+}
+
+#about{
+  margin-top:100px;
+}
+
+.btn-media {
+  padding-top: 50px;
+}
+
+.expTitle{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills ul {
+  list-style:circle;
+}
+
+.skills {
+  text-transform:capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

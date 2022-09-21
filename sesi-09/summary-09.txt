@@ -1,0 +1,28 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Perbedaan SPA (Single Page Apps) dan Non-SPA 
+    single page application hanya akan melakukan load terhadap satu halaman dari server kemudian mekanisme routing yang biasanya 
+    di-handle oleh server kini dibebankan pada client. Akibatnya, website yang menggunakan SPA memiliki performa yang lebih cepat tanpa harus load halaman secara terus menerus.
+
+React Router Basic 
+    Komponen yang mampu melakukan navigasi aplikasi secara deklarasitf. biasanya digunakan untuk keperluan routing yang biasanya 
+    berupa tombol atau link.
+    dilakukan dengan instalasi bantuan NPM
+
+    Ada 3 komponen utama yaitu : Router, Route, Navigation
+
+Nested Route
+    Kita bisa menggunakan nested routing jika sebuah halaman memilik sebuah sub halaman. 
+    Implementasinya kita tinggal me link kan kepada Route induknya saja
+
+URL Paramaters
+    Memberikan path dengan format :<nama params> agar akan ter direct ke halamamn ../nama params
+
+Programmatic Navigation
+    Dilakukan untuk melakukan nagivasi secara dinamis seperti datri sebuah data yang berisi dari AoR
+
+Protected Route
+    Routing yang digunakan jika ada kondisi terpenuhi. biasanya digunakan pada halaman yang tidak bisa diakses sebelum melakukan sesuatu.
+
