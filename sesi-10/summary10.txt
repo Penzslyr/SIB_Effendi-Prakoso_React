@@ -1,0 +1,28 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Redux adalah library yang membantu kita pada Flux Architecture. 
+Mengapa membutuhkan redux?
+    Karena data flow yang kompleks, banyak aksi, dan banyak data yang sama digunakan pada tempat berbeda
+    Dengan adanya redux, data jadi terpusat dan adanya pada di Store. Sehingga semua data ada pada satu tempat.
+
+Prinsip Redux 
+    Single Source of Truth : merujuk pada banyak data yang ada pada satu ujung yaitu di store
+    State is Read Only : untuk mengubah data perlu melalui action 
+    Change are made with pure functions 
+    One Immutable Store : tidak bisa dirubah melalui view harus melalui actions
+    Action Trigger Changes 
+    Reducer update the State
+
+Penggunaan Redux 
+    Di instal via npm (npm i redux)
+    Initial State : dapat berupa tipe data apapun
+    Reducer : functin dengan 2 Paramaters yaitu state dan action. pada action ada action.type (untuk memberi tahu aoa yang akan dilakukan)
+    dan action.payload(daya yang dibawa dan diperlukan unutk melakukan berbagai proses yang hasillnya kita gunakan di state)
+
+Fungsi yang biasa digunakan pada Redux
+    Function createStore dengan parameter sebuah reducer untuk meng inisiasi store
+    Function subscribe ( optional ) untuk bisa mendaftarkan sebuah aksi yang akan di trigger secaraotomatis ketika ada perubahan state
+    Function dispatch yang menerima parameter berupa object berisi type dan payload ( optional ) untuk diteruskan dan di konsumsi oleh reducer
+
