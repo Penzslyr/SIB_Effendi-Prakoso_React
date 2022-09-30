@@ -1,0 +1,12 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Penggunaan react redux logger 
+    sebuah logger yang akan muncul di console browser sehingga setiap terjadi perubahan state, action dipanggil dipanggil
+    dan berbagai hal yang berhubungan dengan redux. sangat membantu untuk debagging data
+
+Penggunaan react redux logger diinstall dengan bantuan npm (npm intall redux-logger)
+
+Async Thunk 
+    Fungsi untuk membungkus 1 atau beberapa ekspresi yang akan dikerjakan
