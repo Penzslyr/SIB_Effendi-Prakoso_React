@@ -1,0 +1,21 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Server Side Rendering (SSR) adalah teknik unutk menampilkan Single Page Application yang akan di render oleh Serve
+dan diteruskan hasilnya kepada client
+
+Keuntungan dari SSR adalah Search Engine Optimization yang akan membantu melakukan crawling pada konten website kita
+keuntungan lainnya yaitu efisien dan cepat karena prosesnya dilakukan oleh server maka server yang menanggung beban ketika mengambil data
+
+Kekurangannya adalah 
+    Load Time Meningkat
+    Potensi Masalah dengan Kode Pihak Ketiga
+
+Dengan menggunakan FrameWorks Next JS kita bisa mengurangi beberapa kekurangan pada SSR biasa
+
+penggunaan Next JS bisa kita lakukan dengan bantuan NPX atau manual
+
+Kapan SSR dilakukan? 
+    Biasanya SSR digunakan jika kita ingin konten website kita dapat dicari oleh Search Engine 
+    maka disarankan menggunakan SSR.
