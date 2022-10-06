@@ -1,0 +1,28 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Testing and Debugging in React JS 
+    Testing dengan bantuan libarry Jest dan RTL (React Testing Library) agar mudah
+
+Testing dan Debugging sangat diperlkan agar kode yang kita hasilkan berkualitas tinggi dan merupakan sebuah 
+garansi bahwa apa yang kita kerjakan sudah sesuai harapan dan mengurangi bug yang ada
+
+Testing 
+    - Unit : Testing terhadap  satu fungsi tunggal saja
+    - Integration : Testing terhadap beberapa fungsi yang ditest secara bersamaan
+    - End to End : memastikan seluruh fungsi bekerja dari perspektif user.
+
+Yang perl;u di test pada react : 
+    - Test render: memastikan komponen dirender tanpa error
+    - Test output: memastikan komponen dirender dengan text atau output yang diinginkan
+    - Test props, state, event, dan lain sebagainya. 
+
+Dengan menggunakan RTL dan Jest
+    RTL Berperan melakukan interaksi
+    Jest melakukan pengecekan terhadap hasil interaksinya
+
+Deployment 
+    menggunakan fungsi npm run build agar kodingan kita memiliki versi build nya
+    menggunakan folder builds hasil runningan npm run build untuk melakukan hosting
+    hosting dapat dilakukan dengan drop folder build atau mengelink github kita (netlify)
