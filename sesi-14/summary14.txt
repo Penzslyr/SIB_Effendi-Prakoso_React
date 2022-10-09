@@ -1,0 +1,17 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+React Native
+    Dengan react Native kita bisa membangun Aplikasi Mobile dengan Javascript 
+    Dengan React Native akan secara dinamis men-generate elemen-elemen native menggunakan JavaScript.
+    React Native juga compatible untuk di digunakan di IOS maupun Android (Multi Platform)
+
+    Digunakan dengan bantuan CLI dan expo (npm install -g expo-cli)
+
+    Menggunakan bantuan Android Emulator dari Android Studio untuk running nya
+
+    untuk membuat project baru bisa mengetikan 'expo init namaProject' lalu memilihn template yang digunakan
+    untuk running kita bisa mengetikan npm start pada project kita
+
+    
