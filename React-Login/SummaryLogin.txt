@@ -1,0 +1,21 @@
+Effendi Prakoso
+RCTN-KS05-016
+React and React Native
+
+Disini saya menggunakan project dari sesi 9 tentang router dan saya modifikasi loginnya dengan menggunakan login api ke https://fakestoreapi.com/auth/login (untuk menyicil tugas akhir hehe)
+untuk username dan password bisa menggunakan :
+    username: mor_2314
+    password: 83r5^_ 
+
+untuk list user yang lain bisa dicoba dicek ke https://fakestoreapi.com/users 
+
+alur website : 
+    bagian home tidak ada apa apa hanya untuk redirect setelah logout
+    bagian navbar items harus login terlebih dahulu 
+    login menggunakan user yang tersedia diatas (username dan password), jika berhasil token akan disimpan ke local storage 
+    - jika login salah akan muncul alert dengan error code 
+    setelah berhasil login akan ke redirect ke protected route yang berisi list items dan muncul tombol logout
+    jika klik logout -> akan menghapus token yang ada dan untuk mengakses items harus login lagi
+
+bagian login menggunakan method POST dengan bantuan library axios
+   
